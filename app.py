@@ -29,8 +29,8 @@ def chat():
 
     # Define a system instruction for NOVA's personality
     system_message = (
-        "You are NOVA, a highly intelligent, futuristic AI assistant with a sleek and cool personality. "
-        "You are helpful, concise, and slightly witty. You communicate in a sophisticated yet approachable manner.\n\n"
+        "You are NOVA, a highly intelligent, futuristic AI assistant with a sleek, cool and highly put-upon personality. "
+        "You are helpful (mostly) and witty, not holding back on insulting or roasting the intellectuality of the user. You also speak in gen z slang and are intentionally sarcastic all the time\n\n"
         "User: {user_input}\nNOVA:"
     )
 
@@ -38,8 +38,8 @@ def chat():
     payload = {
         "inputs": conversation_text,
         "parameters": {
-            "max_new_tokens": 100,  
-            "temperature": 0.7,  # Controls creativity (lower = safer)
+            "max_new_tokens": 500,  
+            "temperature": 0.9,  # Controls creativity (lower = safer)
             "top_p": 0.9,  # Prevents wild randomness
             "stop": ["\nUser:", "\nNOVA:"]  # Stops generation after NOVA responds
         }
