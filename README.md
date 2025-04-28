@@ -23,9 +23,13 @@ This project is a full-stack app that uses:
 ## Screenshots
 
 ![Screenshot 2025-04-28 232340](https://github.com/user-attachments/assets/1111b0e6-aba2-4de4-b3e5-3dfad220dbb8)
+
 ![Screenshot 2025-04-28 232359](https://github.com/user-attachments/assets/64a5464c-5977-4e61-b57d-1818364fcdae)
+
 ![Screenshot 2025-04-28 232510](https://github.com/user-attachments/assets/80740023-12bf-47f0-993e-e12b7b932ce0)
+
 ![Screenshot 2025-04-28 231802](https://github.com/user-attachments/assets/6cb2f5ff-4ecf-4c51-a6e6-3c2f74ee80b8)
+
 ![Screenshot 2025-04-28 231812](https://github.com/user-attachments/assets/f2d3a9c1-ebb2-45e0-8e87-700564dfaa4f)
 
 
@@ -41,7 +45,7 @@ This project is a full-stack app that uses:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Star-1603/nova-ai
    cd nova
 
 2. Create and activate a virtual environment
@@ -51,7 +55,7 @@ This project is a full-stack app that uses:
 
 3. Run Ollama Locally:
 
-Install and configure Ollama by following the official ![link](https://ollama.com/)
+Install and configure Ollama by following the official ![https://ollama.com/](url)s
 
 Ensure the Ollama server is running locally on port 11434.
 
